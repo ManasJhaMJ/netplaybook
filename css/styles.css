@@ -1569,11 +1569,11 @@ body {
 
 .lb_walb .lb_walb_img .lb_walb_img_bat {
     position: absolute;
-    left: 0;
+    left: 31px;
     top: 50%;
     transform: translate(0, -50%);
     max-width: 100%;
-    max-height: 100%;
+    max-height: 155%;
 }
 
 .lb_walb .lb_walb_img .lb_walb_img_ball {
