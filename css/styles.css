@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 * {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Raleway', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -232,29 +232,30 @@ body {
 .lb_slider .mainslider .item .lb_sld_cont .lb {
     font-weight: bold;
     display: inline-block;
-    font-size: 16px;
+    font-size: 10px;
     color: #2e125e;
     background: #edc630;
-    padding: 9px 22px;
-    margin: 0 0 46px;
+    padding: 9px 10px;
+    le: 50px;
+    margin: 0px 0px 36px;
 }
 
 .lb_slider .mainslider .item .lb_sld_cont h3 {
+    color: #edc630;
     width: 100%;
     margin: 0;
     text-transform: uppercase;
     font-weight: bold;
     font-size: 25px;
-    color: #fff;
 }
 
 .lb_slider .mainslider .item .lb_sld_cont h2 {
     width: 100%;
-    margin: -21px 0 15px;
+    margin: -40px 0 2px;
     text-transform: uppercase;
     font-weight: bold;
-    font-size: 110px;
-    text-shadow: 0 0 18px #c3a825e3;
+    font-size: 10px;
+    text-shadow: 0 0 18px #ffffffe3;
     line-height: normal;
     color: #fff;
 }
@@ -279,14 +280,15 @@ body {
     border-radius: 10px;
     box-shadow: 0 0 10px 5px rgba(119, 18, 18, 0.96);
     background: #700000;
-    margin-top: 30px;
+    margin-top: 16rem;
     position: relative;
     margin-left: 0px;
 }
 
 .lb_slider .mainslider .item .lb_sld_cont .a_id:hover {
-    background: #edc630;
-    color: #2e125e;
+    background: #ffffff;
+    color: #710202;
+    box-shadow: 0 0 10px 2px rgba(255, 255, 255, 0.96);
 }
 
 .lb_slider .mainslider .item .lb_sld_img {
@@ -336,10 +338,12 @@ body {
 }
 
 .lb_slider .mainslider .item .lb_sld_img .si.si4 {
-    right: 20px;
+    right: -10px;
+    
     z-index: 3;
-    max-height: 600px;
-    max-width: 800px;
+    margin: -30px;
+    max-height: 700px;
+    max-width: 900px;
 }
 
 .lb_slider .mainslider .item .lb_sld_img .si.si5 {
@@ -366,14 +370,14 @@ body {
 .lb_slider .mainslider .item .lb_sld_img .si.si8 {
     right: 316px;
     z-index: 4;
-    max-height: 480px;
-    max-width: 500px;
+    max-height: 400px;
+    max-width: 400px;
 }
 
 .lb_slider .mainslider .item .lb_sld_img .si.si9 {
     right: 0;
     z-index: 3;
-    max-height: 440px;
+    max-height: 400px;
     max-width: 400px;
 }
 
@@ -460,7 +464,7 @@ body {
     opacity: 0;
     transition: all 1s ease 0s;
 }
-
+.lb_slider .mainslider .item .lb_sld_cont h3
 .lb_slider .mainslider .item .lb_sld_img .active .si.si8 {
     transform: translate(0, 0);
     opacity: 1;
@@ -613,7 +617,7 @@ body {
     display: flex;
     width: 100%;
     background: #E71322;
-    padding: 15px;
+    padding: 25px;
     justify-content: center;
     text-align: center;
     align-items: center;
@@ -633,7 +637,7 @@ body {
 }
 
 .lb_ue p span {
-    color: #000000;
+    color: #ffffff;
 }
 
 .lb_ue .a_pn {
@@ -941,11 +945,11 @@ body {
     font-weight: bold;
     font-size: 60px;
     line-height: normal;
-    color: #fff;
+    color: rgb(237 198 48);
 }
 
 .lb_hiw h2 span {
-    color: #edc630;
+    color: #ffffff;
 }
 
 .lb_hiw .hiw_counter {
@@ -1283,7 +1287,7 @@ body {
     border: 3px solid rgba(119, 18, 18, 0.96);
     background: #700000;
     box-shadow: 0 25px 20px 0px rgba(0, 0, 0, 0.5);
-    border-radius: 5px;
+    border-radius: 64px;
     padding: 40px 30px;
     display: flex;
     flex-wrap: wrap;
@@ -1533,8 +1537,7 @@ body {
 .lb_ue .ue_walink {
     display: flex;
     flex-wrap: wrap;
-    width: calc(100% - 220px);
-    justify-content: flex-end;
+
 }
 
 .lb_ue .ue_walink .a_wa {
@@ -1556,10 +1559,7 @@ body {
 
 .lb_ue {
     background: transparent;
-    justify-content: space-between;
-    padding: 25px 15px;
-    max-width: 1320px;
-    margin: 0 auto;
+  left: 500px;
 }
 
 .lb_walb .lb_walb_img {
