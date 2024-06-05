@@ -4,10 +4,10 @@
 	}
 }
 
-@media screen and (max-width:1800px) {
+@media screen and (max-width:2000px) {
 	.lb_slider .mainslider .item .lb_sld_img {
 		transform: scale(0.8);
-		transform-origin: right bottom;
+		transform-origin: left;
 	}
 
 	.lb_slider .mainslider .item .lb_sld_cont h2 {
@@ -26,9 +26,9 @@
 	}
 }
 
-@media screen and (max-width:1500px) {
+@media screen and (max-width:1700px) {
 	.lb_slider .mainslider .item {
-		padding: 0 0 0 180px;
+		padding: 0 0 0 0px;
 	}
 
 	.lb_header nav ul li {
@@ -66,6 +66,7 @@
 @media screen and (max-width:1330px) {
 	.lb_slider .mainslider .item .lb_sld_img {
 		transform: scale(0.7);
+		transform-origin: center bottom;
 	}
 
 	.lb_celeb .celeb_wrap .celebslider .item .clb_img_wrap .a_play {
@@ -99,6 +100,7 @@
 
 	.lb_slider .mainslider .item .lb_sld_img {
 		transform: scale(0.6);
+		transform-origin: center bottom;
 	}
 
 	.lb_slider .mainslider .item .lb_sld_cont .lb {
@@ -267,6 +269,7 @@
 
 	.lb_slider .mainslider .item .lb_sld_img {
 		transform: scale(0.5);
+		transform-origin: left;
 	}
 
 	.lb_walb .lb_walb_img {
@@ -472,11 +475,13 @@
 		transform: scale(1);
 		width: 100%;
 		position: static;
+		transform-origin: center bottom;
 		height: 230px;
 	}
 
 	.lb_slider .mainslider .item .lb_sld_img .sicard {
 		width: auto;
+		transform-origin: center bottom;
 		max-width: 100%;
 		max-height: 280px;
 		left: 0;

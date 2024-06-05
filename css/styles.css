@@ -1,5 +1,5 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
 * {
     font-family: 'Inter', sans-serif;
     margin: 0;
@@ -183,10 +183,11 @@ body {
 }
 
 .lb_header nav ul li.mid_lg {
-    width: 250px;
+    width: 150px;
 }
 
 .lb_slider {
+    height: 95vh;
     width: 100%;
     overflow: hidden;
     background: url('../images/banner-bg.webp') no-repeat center center;
@@ -207,7 +208,7 @@ body {
 
 .lb_slider .mainslider .item {
     display: flex;
-    padding: 0 0 0 207px;
+    padding: 0 0 0 0px;
     flex-wrap: wrap;
     justify-content: space-between;
     width: 100%;
@@ -222,7 +223,10 @@ body {
 
 .lb_slider .mainslider .item .lb_sld_cont {
     width: 805px;
+    margin: 0 auto;
     padding: 0 0 100px;
+    z-index: 2;
+    text-align: center;
 }
 
 .lb_slider .mainslider .item .lb_sld_cont .lb {
@@ -277,7 +281,7 @@ body {
     background: #700000;
     margin-top: 30px;
     position: relative;
-    margin-left: 50px;
+    margin-left: 0px;
 }
 
 .lb_slider .mainslider .item .lb_sld_cont .a_id:hover {
@@ -288,8 +292,9 @@ body {
 .lb_slider .mainslider .item .lb_sld_img {
     width: 1025px;
     position: absolute;
-    margin: 0;
+    margin: 0 auto;
     right: 0;
+    left: 0;
     bottom: 0;
 }
 
@@ -656,8 +661,8 @@ body {
 
 .lb_walb .lb_walb_img {
     position: absolute;
-    left: 0;
-    max-height: 570px;
+    right: 0;
+    max-height: 650px;
     top: 50%;
     transform: translate(0, -50%);
     max-width: 57%;
@@ -667,9 +672,10 @@ body {
     position: relative;
     z-index: 1;
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     width: 820px;
-    margin: 0 228px 0 auto;
+    margin: 0 auto 0 250px;
 }
 
 .lb_walb .lb_walb_con h4 {
