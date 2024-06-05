@@ -11,7 +11,7 @@
 	}
 
 	.lb_slider .mainslider .item .lb_sld_cont h2 {
-		font-size: 60px;
+		font-size: 100px;
 	}
 
 	.lb_slider .mainslider .item .lb_sld_cont h3 {
@@ -467,7 +467,7 @@
 	}
 
 	.lb_slider .mainslider .item .lb_sld_cont h2 {
-		font-size: 52px;
+		font-size: 60px;
 		margin: -8px 0 -2px;
 	}
 
@@ -521,7 +521,7 @@
 	}
 
 	.lb_slider .mainslider .item .lb_sld_img .si.si4 {
-		max-width: 350px;
+		max-width: 100%;
 		max-height: 300px;
 	}
 
