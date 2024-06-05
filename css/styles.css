@@ -1,4 +1,7 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 * {
+    font-family: 'Inter', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -26,7 +29,7 @@ a:focus {
 }
 
 input {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Inter', sans-serif;
     transition: all 0.4s ease 0s;
     -webkit-transition: all 0.4s ease 0s;
     text-decoration: none;
@@ -46,7 +49,7 @@ select:focus {
 }
 
 button {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Inter', sans-serif;
     cursor: pointer;
     transition: all 0.4s ease 0s;
     -webkit-transition: all 0.4s ease 0s;
@@ -57,14 +60,14 @@ button {
 }
 
 select {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Inter', sans-serif;
     -webkit-appearance: none;
     -moz-appearance: none;
 }
 
 textarea {
     outline: none !important;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Inter', sans-serif;
 }
 
 ul li,
@@ -94,7 +97,7 @@ input[type="radio"] {
 
 body {
     background: #000000;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: normal;
     color: #fff;
 }
@@ -186,7 +189,7 @@ body {
 .lb_slider {
     width: 100%;
     overflow: hidden;
-    background: url('../images/banner-bg.png') no-repeat center center;
+    background: url('../images/banner-bg.webp') no-repeat center center;
     background-size: cover;
     padding: 0;
     position: relative;
@@ -963,7 +966,7 @@ body {
     text-align: center;
     border: 2px solid rgba(119, 18, 18, 0.96);
     margin: 0 auto;
-    border-radius: 50%;
+    border-radius: 30%;
     transition: all 0.4s ease 0s;
     background: #700000;
     margin: 0 auto 40px;
