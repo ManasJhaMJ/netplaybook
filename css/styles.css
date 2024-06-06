@@ -1088,7 +1088,8 @@ body {
 }
 
 .lb_hiw .hiw_wa .wa_link .a_wa:hover {
-    background: #000;
+    background: #ffffff;
+    color: #700000;
 }
 
 .lb_hiw .hiw_counter li .step_arrow .sa_img {
@@ -1555,7 +1556,8 @@ body {
 }
 
 .lb_ue .ue_walink .a_wa:hover {
-    background: #000;
+    background: #ffffff;
+    color: #700000;
 }
 
 .lb_ue {
