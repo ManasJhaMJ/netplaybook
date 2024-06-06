@@ -26,7 +26,7 @@
 	}
 }
 
-@media screen and (max-width:1700px) {
+@media screen and (max-width:2000px) {
 	.lb_slider .mainslider .item {
 		padding: 0 0 0 0px;
 	}
@@ -164,7 +164,7 @@
 
 	.lb_walb .lb_walb_con {
 		width: 540px;
-		margin: 0 20px 0 auto;
+		/* margin: 0 20px 0 auto; */
 	}
 
 	.lb_hiw .hiw_counter li {
@@ -296,6 +296,10 @@
 	.lb_walb .lb_walb_con {
 		width: 100%;
 		margin: 0;
+	}
+
+	.lb_walb .lb_walb_img .lb_walb_img_bat {
+		left: 50px;
 	}
 
 	.lb_walb .lb_walb_con p {
@@ -440,6 +444,10 @@
 		margin: 0;
 		background: #000;
 		border-top: 2px solid #E71322;
+	}
+
+	.lb_walb .lb_walb_img .lb_walb_img_bat {
+		left: 25px;
 	}
 
 	.lb_header nav ul {

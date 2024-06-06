@@ -680,7 +680,7 @@ body {
     flex-direction: column;
     flex-wrap: wrap;
     width: 820px;
-    margin: 0 auto 0 250px;
+    margin: 0 auto 0 100px;
 }
 
 .lb_walb .lb_walb_con h4 {
@@ -1572,11 +1572,11 @@ body {
 
 .lb_walb .lb_walb_img .lb_walb_img_bat {
     position: absolute;
-    left: 31px;
+    left: 80px;
     top: 50%;
     transform: translate(0, -50%);
     max-width: 100%;
-    max-height: 155%;
+    max-height: 150%;
 }
 
 .lb_walb .lb_walb_img .lb_walb_img_ball {
