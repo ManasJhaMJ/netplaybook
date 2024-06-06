@@ -67,6 +67,7 @@
 	.lb_slider .mainslider .item .lb_sld_img {
 		transform: scale(0.7);
 		transform-origin: center bottom;
+		width: 800px;
 	}
 
 	.lb_celeb .celeb_wrap .celebslider .item .clb_img_wrap .a_play {
@@ -92,6 +93,15 @@
 	.lb_header nav ul li {
 		margin: 0 10px;
 		font-size: 12px;
+	}
+
+	.lb_header nav ul li.mid_lg {
+		width: 70px;
+	}
+
+	.lb_slider .mainslider {
+		padding: 117px 0 0;
+
 	}
 
 	.lb_slider .mainslider .item {
@@ -270,6 +280,7 @@
 	.lb_slider .mainslider .item .lb_sld_img {
 		transform: scale(0.5);
 		transform-origin: left;
+		width: 1224px;
 	}
 
 	.lb_walb .lb_walb_img {
@@ -524,6 +535,7 @@
 	.lb_slider .mainslider .item .lb_sld_img .si.si4 {
 		max-width: 100%;
 		max-height: 300px;
+		transform: scale(1.5);
 	}
 
 	.lb_slider .mainslider .item .lb_sld_img .si.si5 {

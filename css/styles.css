@@ -184,11 +184,11 @@ body {
 }
 
 .lb_header nav ul li.mid_lg {
-    width: 150px;
+    width: 100px;
 }
 
 .lb_slider {
-    height: 95vh;
+    height: 90vh;
     width: 100%;
     overflow: hidden;
     background: url('../images/banner-bg.webp') no-repeat center center;
@@ -281,7 +281,7 @@ body {
     border-radius: 10px;
     box-shadow: 0 0 10px 5px rgba(119, 18, 18, 0.96);
     background: #700000;
-    margin-top: 13rem;
+    margin-top: 3rem;
     position: relative;
     margin-left: 0px;
 }
@@ -293,7 +293,7 @@ body {
 }
 
 .lb_slider .mainslider .item .lb_sld_img {
-    width: 1025px;
+    width: 1225px;
     position: absolute;
     margin: 0 auto;
     right: 0;
@@ -332,14 +332,14 @@ body {
 }
 
 .lb_slider .mainslider .item .lb_sld_img .si.si3 {
-    right: 0;
+    right: 10px;
     z-index: 4;
     max-height: 470px;
     max-width: 470px;
 }
 
 .lb_slider .mainslider .item .lb_sld_img .si.si4 {
-    right: -10px;
+    right: 20px;
 
     z-index: 3;
     margin: -30px;
