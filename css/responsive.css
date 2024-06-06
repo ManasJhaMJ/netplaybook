@@ -448,7 +448,7 @@
 
 	.lb_slider .mainslider .item .lb_sld_cont {
 		width: 100%;
-		padding: 0 10px 30px;
+		padding: 27px 10px 30px;
 		text-align: center;
 	}
 
@@ -467,7 +467,7 @@
 	}
 
 	.lb_slider .mainslider .item .lb_sld_cont h2 {
-		font-size: 60px;
+		font-size: 54px;
 		margin: -8px 0 -2px;
 	}
 
@@ -498,7 +498,7 @@
 	.lb_slider .mainslider .item .lb_sld_cont .a_id {
 		font-size: 16px;
 		padding: 14px 23px;
-		margin-left: 0px;
+		margin-top: 17px;
 	}
 
 	.lb_slider .mainslider {
