@@ -654,7 +654,7 @@ body {
 .lb_walb {
     width: 100%;
     padding: 120px 15px;
-    background: transparent url('../images/4bg.jpg') no-repeat center center;
+    background: transparent url('../images/4bg.webp') no-repeat center center;
     background-size: cover;
     overflow: hidden;
     position: relative;
@@ -791,7 +791,7 @@ body {
     width: 100%;
     position: relative;
     padding: 110px 0;
-    background: transparent url('../images/bg2.jpg') no-repeat center center;
+    background: transparent url('../images/bg5.webp') no-repeat center center;
     background-size: cover;
     overflow: hidden;
 }
@@ -927,7 +927,7 @@ body {
 .lb_hiw {
     width: 100%;
     padding: 100px 0 40px;
-    background: url('../images/3bg.jpg') no-repeat center center;
+    background: url('../images/3bg.webp') no-repeat center center;
     background-size: cover;
 }
 
@@ -1102,7 +1102,7 @@ body {
     width: 100%;
     padding: 0;
     padding: 127px 80px 106px 200px;
-    background: url('../images/4bg.jpg') no-repeat center center;
+    background: url('../images/4bg.webp') no-repeat center center;
     background-size: cover;
 }
 
@@ -1254,7 +1254,7 @@ body {
 
 .lb_why {
     width: 100%;
-    background: url('../images/bg5.jpg') no-repeat center center;
+    background: url('../images/bg5.webp') no-repeat center center;
     background-size: cover;
     padding: 140px 0 40px;
 }
