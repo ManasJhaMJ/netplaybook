@@ -1701,3 +1701,69 @@ body {
 ::-webkit-scrollbar-thumb {
     background: rgb(231, 19, 34);
 }
+
+.partners {
+    max-width: 1024px;
+    margin: 5rem auto;
+    padding: 0 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+}
+
+.partner-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin: auto;
+    padding: 20px 10px;
+    background-color: #000;
+    border-radius: 10px;
+    border: #b81c27 2px solid;
+    min-height: 300px;
+    max-height: max-content;
+}
+
+.partner-cards img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.partner-cards h4 {
+    color: #fff;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.partner-cards a button {
+    padding: 10px 20px;
+    background-color: #700000;
+    color: #fff;
+    box-shadow: 0 0 10px 5px rgba(119, 18, 18, 0.96);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.partner-cards a button:hover {
+    background-color: #edc630;
+    color: #2e125e;
+}
+
+/* Responsive */
+@media (max-width: 425px) {
+
+    .partners {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .partner-cards {
+        min-height: 300px;
+        width: 100%;
+    }
+}
